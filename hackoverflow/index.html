@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="timer.css">
+  <link rel="stylesheet" href="ourteam.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+   integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="about_us.css">
+  <link rel="stylesheet" href="sponsors.css">
+  <link rel="stylesheet" href="faq.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>HACKOVERFLOW</title>
+</head>
+
+<body style="background-color: #012a51;color: white; padding: 0px; overflow-x: hidden; font-family: 'Press Start 2P', cursive;">
+
+
+  <nav class="navbar navbar-default" style="height:75px;">
+    <div class="container-fluid">
+      <div class="navbar-header" style="padding-top:7px;">
+        <a class="navbar-brand" href="https://www.ieeeiasvit.in/" target="_blank">
+          <img src="./images/home/iaslogo-removebg-preview.png" alt="" height="70px" width="70px"
+            style="margin-left: 17px;margin-top:-25px">
+
+        </a>
+      </div>
+      <div class="navelements" style="display:flex;justify-content:center;padding-top:9px;">
+        <ul class="nav navbar-nav">
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#sponsorship12">SPONSORS</a></li>
+          <li><a href="#">PRIZES</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="social_media" style="display:flex;justify-content:right; margin-top: -35px;">
+        <a href="https://www.instagram.com/ieeeiasvit/" target="_blank">
+        <i style="font-size:24px; color:black; padding-left: 10px; padding-right: 10px;" class="fa">&#xf16d;</i></a>
+        <i style="font-size:24px; color:black; padding-left: 10px; padding-right: 10px;" class="fa">&nbsp; &#xf0e1;</i>
+        <i style="font-size:24px; color:black; padding-left: 10px; padding-right: 10px;" class="fa">&nbsp; &#xf099;</i>
+        <a href="https://discord.gg/az2rpy7g" target="_blank">
+        <i style="font-size:24px; color:black; padding-left: 15px; padding-right: 10px;" class="fa"><img src="images/discord.png" height="20px" width="25px"></i></a>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <div class="home-bg"
+    style="background-image: url('images/background.png'); background-repeat: no-repeat;background-size: 100% 95%; ">
+    <div class="home">
+      <center>
+        <img src="images/logo.png" width="25%">
+      </center>
+    </div>
+
+    <!--timer section starts-->
+    <div class="timer">
+      <div class="coming-soon">
+        <div>
+          <h2>Coming Soon</h2>
+          <div class="countdown">
+            <div class="container-day">
+              <div class="box">
+                <h3 class="day">Time</h3>
+                <h3 style="color: black;">&nbsp;&nbsp;day&nbsp;&nbsp;</h3>
+              </div>
+            </div>
+            <div class="container-hour">
+              <div class="box">
+                <h3 class="hour">Time</h3>
+                <h3 style="color: black;">&nbsp;hour&nbsp;</h3>
+              </div>
+            </div>
+            <div class="container-minute">
+              <div class="box">
+                <h3 class="minute">Time</h3>
+                <h3 style="color: black;">minute</h3>
+              </div>
+            </div>
+            <div class="container-second">
+              <div class="box">
+                <h3 class="second">Time</h3>
+                <h3 style="color: black;">second</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- </div> -->
+
+
+  <!--timer section ends-->
+  <!-- About us section Begins -->
+  <div class="about">
+    <div id="mainbox">
+      <h1 class="main" style="margin-bottom: 40px ;">ABOUT US</h1>
+      <div id="con">
+        <div class="image-container">
+          <img src="./images/chapters/iaslogo.png" class="box" />
+          <button class="hsbbtn">WEBSITE</button>
+        </div>
+        <div class="textnbutton">
+          <p style="font-size: 26px; padding-left: 30px; margin-left: 30px; margin-bottom: 40px;">
+            IEEE Industrial Applications Society, a group of undergraduates at
+            VIT, is dedicated to build a bridge between enthusiasm and
+            excellence by providing a platform for brainstorming solutions to
+            the industrial world, through the largest research conferences,
+            expert talks, seminars, and boot camps. We link research to
+            practice, thereby connecting students to industry experts. To
+            promote technology among the students even during the pandemic, we
+            organised a variety of productive technical sessions, Hackathons,
+            Techathons, and Ideathons, as well as some other events.
+          </p>
+          <!-- <br /> -->
+          <a target="_blank" class="sbbtn" href="http://www.ieeeiasvit.in/"
+            style="margin-left: 50px; margin-top: 40px;">WEBSITE</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- About us section Ends -->
+  <!--our team section starts-->
+  <!-- <div class="sponsorship" style="margin-bottom: 100px; background-color: #012a51;">
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <h1 style="color: white;">OUR TEAM</h1>
+      </div>
+    </div>
+    <div class="row" style="margin-left: 200px; margin-right: 200px;">
+      <div class="col-lg-4 col-sm-6">
+        <a href="https://codingblocks.com/">
+          <img src="images/down.jpg" style="border-radius: 20%;padding: 20px;"></a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="https://wharfstreetstrategies.com/">
+          <img src="images/down.jpg" style="border-radius: 20%;padding: 20px;"></a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="https://www.codingninjas.com/">
+          <img src="images/down.jpg" style="border-radius: 20%;padding: 20px;"></a>
+      </div>
+    </div>
+    <div class="row" style="margin-left: 200px; margin-right: 200px;">
+      <div class="col-lg-4 col-sm-6">
+        <a href="https://www.cuvette.tech/">
+          <img src="images/down.jpg" style="border-radius: 20%;padding: 20px;"></a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="https://www.cuvette.tech/">
+          <img src="images/down.jpg" style="border-radius: 20%;padding: 20px;"></a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="https://insidefpv.com/">
+          <img src="images/down.jpg" style="border-radius: 20%;padding: 20px;"></a>
+      </div>
+    </div>
+  </div> -->
+  <!--our team section ends-->
+  <!-- Sponsorship section Begins -->
+  <div class="sponsorship" style="background-color: #012a51;" id="sponsorship12">
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <h1 style="color: white;">SPONSORS</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <a href="https://devfolio.co/">
+          <img src="images/devfolio.png" width="50%"></a>
+      </div>
+      <div class="col-lg-6 col-sm-12">
+        <a href="https://replit.com/">
+          <img src="images/replit.png" width="40%" style="border-radius: 10%;"></a>
+      </div>
+    </div>
+    <div class="row" style="padding-top: 150px;">
+      <div class="col-lg-6 col-sm-12">
+        <a href="https://filecoin.io/">
+          <img src="images/Filecoin.png" width="50%"></a>
+      </div>
+      <div class="col-lg-6 col-sm-12" style="margin-top: 20px;">
+        <a href="https://solana.com/">
+          <img src="images/solana.png" width="50%"></a>
+      </div>
+    </div>
+  </div>
+  <!-- Sponsorship section Ends -->
+  <!--ABOUT HACKOVERFLOW starts-->>
+  <div class="about">
+    <div id="mainbox">
+      <h1 class="main" style="margin-bottom: 100px ;">ABOUT HACKOVERFLOW</h1>
+      <div id="con">
+        <div class="image-container">
+          <!-- <button class="hsbbtn">WEBSITE</button> -->
+        </div>
+          <p style="font-size: 26px; padding-left: 30px; margin-left: 30px; margin-bottom: 40px;">
+            IHackOverflow is a 48 hours hackathon which aims to provide hours of 
+            ideation and innovation. It is an event for hackers to challenge their 
+            technical boundaries by learning new technologies, developing innovative 
+            projects and procuring new-age solutions. This event intends to bring 
+            together like minded hackers from various colleges and universities for an 
+            amazing technical journey consisting of pre-hack webinars and 
+            workshops.
+            
+            
+            The theme for this Hack is Ukraine-Russia war and is primarily based on 6 
+            tracks namely Logistics, Defense, Fintech, Healthcare, Telecom and Media 
+            & Open Innovation. The teams will be divided into groups of 4. Domain 
+            experts from each track will judge and will provide guidance to the 
+            hackers to improve their solutions. The hackers will be awarded with 
+            special cash prizes and lots more
+          </p>
+          <!-- <br /> -->
+        
+        
+      </div>
+
+    </div>
+  </div>
+  <!--about hackoverflow ends-->
+  <!-- FAQ Section Begins -->
+  <section class="faq" id="faq" style="padding-top: 90px;">
+    <h2 class="title">FAQ</h2>
+
+    <div class="container">
+      <div class="question">
+        <div class="info">
+          <div>
+            <h1 class="plus">+</h1>
+          </div>
+          <div class="cont">
+            <h3 class="ques" style="font-size: 20px;">How can we register for the event? </h3>
+            <div class="faq-body">
+              <p>You have to apply on the graVITas website</p>
+            </div>
+            <hr>
+          </div>
+        </div>
+
+        <div class="info">
+          <div>
+            <h1 class="plus">+</h1>
+          </div>
+          <div class="cont">
+            <h3 class="ques" style="font-size: 20px;">What is the team capacity for the event?</h3>
+            <div class="faq-body">
+              <p>2 members</p>
+            </div>
+            <hr>
+          </div>
+        </div>
+
+        <div class="info">
+          <div>
+            <h1 class="plus">+</h1>
+          </div>
+          <div class="cont">
+            <h3 class="ques" style="font-size: 20px;">Is this event open to students of all years and courses?</h3>
+            <div class="faq-body">
+              <p>Yes, anyone with a knack for coding can participate in the event. </p>
+            </div>
+            <hr>
+          </div>
+        </div>
+
+        <div class="info">
+          <div>
+            <h1 class="plus">+</h1>
+          </div>
+          <div class="cont">
+            <h3 class="ques" style="font-size: 20px;">Is there a specific coding language required? </h3>
+            <div class="faq-body">
+              <p>No, We do not have any restriction as far as coding language is concerned.</p>
+            </div>
+            <hr>
+          </div>
+        </div>
+
+        <div class="info">
+          <div>
+            <h1 class="plus">+</h1>
+          </div>
+          <div class="cont">
+            <h3 class="ques" style="font-size: 20px;">When is the deadline to apply for the event?</h3>
+            <div class="faq-body">
+              <p>You are all good. You have until midnight on September 29th, 2022!</p>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="info">
+          <div>
+            <h1 class="plus">+</h1>
+          </div>
+          <div class="cont">
+            <h3 class="ques" style="font-size: 20px;">How long will the hackathon be for?</h3>
+            <div class="faq-body">
+              <p>The Hackathon will take place over 3 days the 6th, 7th, and the 8th of January. This includes time for both round 1 as well as round 2.
+              </p>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="info">
+          <div>
+            <h1 class="plus">+</h1>
+          </div>
+          <div class="cont">
+            <h3 class="ques" style="font-size: 20px;">What happens in the ideation round?
+            </h3>
+            <div class="faq-body">
+              <p>In the Ideation round the teams have to come up with an idea based on the problem statement they have decided to work on, as well as create a small presentation about it.
+              </p>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="info">
+          <div>
+            <h1 class="plus">+</h1>
+          </div>
+          <div class="cont">
+            <h3 class="ques" style="font-size: 20px;">Where will the hackathon be hosted?</h3>
+            <div class="faq-body">
+              <p>The hackathon is based on the DevFolio Platform. It will be a completely online event for all external students(i.e participants who are from outside VIT) and a hybrid event (i.e participants can come to an assigned classroom to collaborate together or can work together online) for students of VIT Vellore.
+              </p>
+            </div>
+            <hr>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- FAQ Section Ends -->
+  <!-- Contact section Begins -->
+  <div class="container contact" id="contact">
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title" style="font-size: 20px;">Let's get in touch</h3>
+        <p class="text">
+          Want to get in touch? We'd love to hear from you. Here's how you can reach us...
+        </p>
+
+        <div class="info">
+          <div class="information">
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> Vellore, Tamil Nadu</li>
+            </ul>
+          </div>
+          <div class="information">
+            <ul>
+              <li><i class="fas fa-envelope"></i> coderunseek@gmail.com</li>
+            </ul>
+          </div>
+          <div class="information">
+            <ul>
+              <li><i class="fas fa-mobile-alt"></i> +91 80049 23260<br><i class="fas fa-mobile-alt"></i> +91 99933 89268
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <p>Connect with us :</p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/ieeeiasvit/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/ieeeiasvit" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/ieee_wie_vit/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/ieee_wie_vit" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <form id="contactForm">
+        <span id="circle one"></span>
+        <span id="circle two"></span>
+        <h3 id="title-contact">Contact us</h3>
+        <!-- <div class="alert">Your message sent</div> -->
+        <div class="contact-right">
+          <div id="input-container">
+            <input type="text" placeholder="Name" name="name" id="name" />
+
+          </div>
+          <div id="input-container">
+            <input type="email" name="email" placeholder="Email" id="emailid" />
+
+          </div>
+          <div id="input-container">
+            <input type="tel" name="phone" id="phone" placeholder="Phone" />
+
+          </div>
+          <div id="input-container textarea">
+            <textarea name="message" id="msgContent" placeholder="Message" rows="5"></textarea>
+          </div>
+
+        </div>
+
+        <div class="inputBox">
+          <button type="submit" class="btn">Submit</button>
+        </div>
+
+
+      </form>
+    </div>
+  </div>
+  </div>
+  <!-- Contact section Ends -->
+
+  <!-- Footer Begins -->
+  <div class="footer">
+    <div class="copyright">
+      <div class="container">
+        <div style="width: 100%; text-align: center;">
+          <div class="copy-text">
+            <p style="color: white">&copy; <a href="#">IEEE-IAS </a>. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Ends -->
+
+  <script>
+    const countdown = () => {
+      const countDate = new Date("January 7,2023 10:00:00").getTime()
+      const now = new Date().getTime()
+      const gap = countDate - now;
+      const second = 1000;
+      const minute = second * 60;
+      const hour = minute * 60;
+      const day = hour * 24
+
+      const textDay = Math.floor(gap / day);
+      const textHour = Math.floor((gap % day) / hour);
+      const textMinute = Math.floor((gap % hour) / minute);
+      const textSecond = Math.floor((gap % minute) / second);
+
+      document.querySelector(".day").innerText = textDay;
+      document.querySelector(".hour").innerText = textHour;
+      document.querySelector(".minute").innerText = textMinute;
+      document.querySelector(".second").innerText = textSecond;
+    };
+    setInterval(countdown, 1000);
+
+    const show = document.querySelectorAll(".plus");
+
+    for (let i = 0; i < show.length; i++) {
+      show[i].addEventListener("click", function () {
+        document
+          .querySelectorAll(".faq-body")
+        [i].classList.toggle("show-answer");
+        if (
+          document
+            .querySelectorAll(".faq-body")
+          [i].classList.contains("show-answer")
+        ) {
+          show[i].innerText = "-";
+        } else {
+          show[i].innerText = "+";
+        }
+      });
+    }
+
+  </script>
+
+
+</body>
+
+</html>
